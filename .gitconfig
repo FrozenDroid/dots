@@ -1,0 +1,21 @@
+[user]
+  name       = Vincent Stakenburg
+  email      = vincentstakenburg@gmail.com
+  signingKey = 719685574CC7FA9313456BE7BEE06316556D9571
+
+[core]
+  excludesfile 	= ~/.gitignore_global
+  autocrlf 	= input
+
+[color]
+  diff 		= auto
+  status 	= auto
+  branch 	= auto
+  interactive 	= auto
+  ui 		= true
+  pager 	= true
+
+[alias]
+  st = status
+  co = commit
+
