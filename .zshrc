@@ -1,4 +1,4 @@
-export ZSH="~/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 autoload -Uz compinit promptinit colors
 compinit
@@ -19,8 +19,9 @@ plugins=(
 )
 
 # User configuration
-bindkey "[D" backward-word
-bindkey "[C" forward-word
+bindkey -e
+bindkey '^[[1;3D' emacs-backward-word
+bindkey '^[[1;3C' emacs-forward-word
 bindkey "^[a" beginning-of-line
 bindkey "^[e" end-of-line
 
