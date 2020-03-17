@@ -54,6 +54,7 @@ inoremap <silent> <A-right>   <C-right>
 nnoremap <silent> <leader>nt :<C-u>NERDTreeToggle<CR>
 
 nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> ga <Plug>(coc-code-action)
 nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
